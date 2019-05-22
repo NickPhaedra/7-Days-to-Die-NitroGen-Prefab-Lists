@@ -39,7 +39,7 @@ bar_sm_01,COMMERCIAL;DOWNTOWN,2,-1,20,16,29,downtown
 bar_stripclub_01,COMMERCIAL;DOWNTOWN,2,-1,42,16,44,downtown
 bar_theater_01,COMMERCIAL;DOWNTOWN,2,-1,40,21,43,downtown
 blueberryfield_sm,RESIDENTIALOLD;INDUSTRIAL,1,-1,12,2,12,farm
-//bluff01,BIOMEONLY,1,-4,15,10,19,alone
+//bluff01,BIOMEONLY,0,-4,15,10,19,alone
 bombshelter_lg_01,RESIDENTIALOLD,2,-10,27,22,37,houses
 bombshelter_md_01,RESIDENTIALOLD,2,-12,29,22,34,houses
 //TODO for roads:
@@ -62,8 +62,8 @@ business_strip_old_01,COMMERCIAL;DOWNTOWN,2,-1,44,31,43,downtown
 business_strip_old_02,COMMERCIAL;DOWNTOWN,2,-1,51,23,43,downtown
 business_strip_old_03,COMMERCIAL;DOWNTOWN,2,-5,56,32,32,downtown
 business_strip_old_04,COMMERCIAL;DOWNTOWN,2,-6,39,32,32,downtown
-bus_stop_01,NONE,2,-2,29,6,9,smalltown;downtown
-bus_wreck_01,NONE,2,-4,27,7,7,smalltown;hillbillyjunk
+bus_stop_01,NONE,0,-2,29,6,9,smalltown;downtown
+bus_wreck_01,NONE,0,-4,27,7,7,smalltown;hillbillyjunk
 cabin_01,RESIDENTIALOLD,2,-1,26,16,33,alone;mountain
 cabin_02,RESIDENTIALOLD,2,-4,24,17,37,alone;mountain
 cabin_03,RESIDENTIALOLD,2,-1,33,17,37,alone;mountain
@@ -161,8 +161,8 @@ houseburnt2,RESIDENTIALOLD,2,-3,16,14,21,houses
 houseburnt3,RESIDENTIALOLD,2,0,15,17,22,houses
 houseburnt3b,RESIDENTIALOLD,2,0,15,17,22,houses
 houseburnt5,RESIDENTIALOLD,2,0,15,11,15,houses
-houseburnt_deco1,BIOMEONLY,0,0,8,10,7,houses
-houseburnt_deco2,BIOMEONLY,0,0,6,7,8,houses
+//houseburnt_deco1,BIOMEONLY,0,0,8,10,7,houses
+//houseburnt_deco2,BIOMEONLY,0,0,6,7,8,houses
 house_construction_01,RESIDENTIALNEW,2,-5,32,21,46,houses
 house_construction_02,RESIDENTIALNEW,2,-6,28,17,53,houses
 house_modern_01,RESIDENTIALNEW,0,-1,37,20,47,houses
@@ -245,12 +245,7 @@ house_old_victorian_11,RESIDENTIALOLD,0,-4,29,24,53,houses
 house_old_victorian_12,RESIDENTIALOLD,2,-4,28,23,46,houses
 house_old_victorian_13,RESIDENTIALOLD,2,-4,31,26,46,houses
 //hwy_overpass_sign_01,BIOMEONLY,2,0,
-indian_burial_grounds_01,NOZONE,2,-2,27,8,27,alone;mountain;unique
-indian_burial_grounds_01,NOZONE,2,-2,27,8,27,alone;mountain;unique
-indian_burial_grounds_01,NOZONE,2,-2,27,8,27,alone;mountain;unique
-indian_burial_grounds_01,NOZONE,2,-2,27,8,27,alone;mountain;unique
-indian_burial_grounds_01,NOZONE,2,-2,27,8,27,alone;mountain;unique
-indian_burial_grounds_01,NOZONE,2,-2,27,8,27,alone;mountain;unique
+indian_burial_grounds_01,NOZONE,2,-2,27,8,27,mountain
 installation_red_mesa,INDUSTRIAL,2,-24,46,34,46,alone
 installation_red_mesa_security,NAVONLY,0,0,9,17,10,industrial
 //installation_red_mesa_sign,NAVONLY,2,0,
@@ -272,20 +267,24 @@ mp_waste_bldg_04_white,DOWNTOWN;COMMERCIAL;INDUSTRIAL,0,0,14,17,38,houses
 mp_waste_bldg_05_grey,DOWNTOWN;COMMERCIAL;INDUSTRIAL,3,0,20,13,22,houses
 mp_waste_bldg_06_grey,DOWNTOWN;COMMERCIAL;INDUSTRIAL,3,0,23,22,34,houses
 mp_waste_bldg_governer_08,DOWNTOWN,3,0,28,15,46,houses;citycenter
+
 //mp_waste_cover_01,NAVONLY,2,0,
 //mp_waste_cover_02,NAVONLY,2,0,
 //mp_waste_hole_asphalt_01,NAVONLY,2,0,
 //mp_waste_hole_rock_01,NAVONLY,2,0,
 //mp_waste_pile_01,BIOMEONLY,2,0,
 //mp_waste_pile_02,BIOMEONLY,2,0,
-mp_waste_pile_03,BIOMEONLY,0,0,4,3,4,houses
-mp_waste_pile_04,BIOMEONLY,0,0,7,15,7,houses
-mp_waste_pile_05,BIOMEONLY,0,0,9,4,9,houses
+//mp_waste_pile_03,BIOMEONLY,0,0,4,3,4,houses
+//mp_waste_pile_04,BIOMEONLY,0,0,7,15,7,houses
+//mp_waste_pile_05,BIOMEONLY,0,0,9,4,9,houses
+
 mp_waste_sewer_hole_1,COMMERCIAL,0,-10,33,32,31,houses;industrial
 mp_waste_sewer_hole_2,NAVONLY,0,-10,25,11,23,houses;industrial
+
 //mp_waste_tree_pile_01,NAVONLY,2,0,
 //mp_waste_tree_pile_02,NAVONLY,2,0,
 //navezgane_waterfall_01,NONE,2,0,
+
 oldwest_church,COMMERCIAL,2,0,12,18,16,oldwest
 oldwest_gallows,NAVONLY,2,0,7,5,6,farm;oldwest;hillbillyjunk
 oldwest_graveyard,COMMERCIAL,2,-2,13,4,16,oldwest
@@ -301,18 +300,19 @@ oldwest_sm_shop_02,COMMERCIAL,2,0,7,8,12,oldwest
 oldwest_sm_shop_03,COMMERCIAL,2,0,6,9,12,oldwest
 oldwest_stables,INDUSTRIAL,2,-1,25,11,24,oldwest
 oldwest_watertower,INDUSTRIAL,2,0,9,12,10,oldwest
-parking_garage_01,COMMERCIAL;DOWNTOWN,2,0,43,18,44,citycenter;carlot
+park_01,NONE,0,-1,53,10,53,smalltown;downtown;citycenter
+park_02,NONE,0,-1,28,10,46,smalltown;downtown;citycenterparking_garage_01,COMMERCIAL;DOWNTOWN,2,0,43,18,44,citycenter;carlot
 parking_lot_01,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,downtown;smalltown;carlot
 parking_lot_02,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,downtown;smalltown;carlot
 parking_lot_03,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,downtown;smalltown;carlot
-park_01,NONE,2,-1,53,10,53,smalltown;downtown;citycenter
-park_02,NONE,2,-1,28,10,46,smalltown;downtown;citycenter
+
 //perishton_city_blk_01,DEVONLY,2,0,
 //perishton_city_blk_02,DEVONLY,2,0,
 //perishton_city_blk_03,DEVONLY,2,0,
 //perishton_city_blk_04,DEVONLY,2,0,
 //perishton_city_sign_01,NAVONLY,2,0,
 //perishton_median_01,NAVONLY,2,0,
+
 player_start1,NAVONLY,0,0,6,2,6,alone;smalltown;downtown;hillbillyjunk
 player_start2,NAVONLY,0,0,4,2,8,alone;smalltown;downtown;hillbillyjunk
 player_start3,NAVONLY,0,0,5,2,6,alone;smalltown;downtown;hillbillyjunk
@@ -339,7 +339,7 @@ ranger_station1,COMMERCIAL,3,0,19,14,19,alone;mountain
 //nice POI, but sawmill only works on SNOW!
 sawmill_01_snow,INDUSTRIAL,0,-1,75,28,100,mountain;unique
 
-school_01,DOWNTOWN;RESIDENTIALNEW,2,-1,100,17,75,smalltown
+school_01,DOWNTOWN;RESIDENTIALNEW,0,-1,100,17,75,smalltown
 school_daycare_01,DOWNTOWN;RESIDENTIALNEW,2,-1,35,15,55,smalltown;downtown
 school_k6_01,DOWNTOWN;RESIDENTIALNEW,2,-1,49,17,79,smalltown;downtown
 settlement_01,COMMERCIAL,2,-1,38,19,38,alone
@@ -492,7 +492,7 @@ xcostum_bowlingcenter(by_magoli),COMMERCIAL;DOWNTOWN,0,-4,32,17,38,smalltown;dow
 xcostum_BoxingGym(by_KamR),COMMERCIAL;DOWNTOWN;INDUSTRIAL,1,-1,51,13,49,smalltown;downtown
 xcostum_bridgesideapartmentsA16(by_Batman),NONE,3,-15,78,60,99,industrial;unique
 xcostum_Brownstones_House(by_Laz_Man),DOWNTOWN,0,-4,44,21,45,smalltown;citycenter
-xcostum_burialshrine(by_snake0567),RESIDENTIALNEW;RESIDENTIALOLD,2,-25,21,26,15,alone
+xcostum_burialshrine(by_snake0567),RESIDENTIALNEW;RESIDENTIALOLD,0,-25,21,26,15,alone
 xcostum_Cabin(by_Sudo),RESIDENTIALNEW;RESIDENTIALOLD,1,-10,46,26,55,alone;mountain
 xcostum_Cantine(by_Limodor),COMMERCIAL;RESIDENTIALNEW;RESIDENTIALOLD,2,-1,29,13,25,smalltown;downtown
 xcostum_Car_Dealership_new(by_p1ut0nium),COMMERCIAL;RESIDENTIALNEW;RESIDENTIALOLD,3,-5,41,16,28,smalltown;downtown;carlot
@@ -559,7 +559,7 @@ xcostum_House_AF03D(37x54)(by_Nodabba),ResidentialNew;ResidentialOld;Residential
 xcostum_House_AF03P(35x54)(by_Nodabba),RESIDENTIALNEW,3,0,35,23,54,houses;smalltown;unique
 xcostum_House_AF03R(37x53)(by_Nodabba),RESIDENTIALNEW;RESIDENTIALOLD,3,0,37,23,53,houses;smalltown;unique
 xcostum_House_AF04D(15x15)(by_Nodabba),ResidentialNew;ResidentialOld;Residential,0,-1,15,13,15,houses;smalltown
-xcostum_House_AF04P(15x15)(by_Nodabba),RESIDENTIALNEW,2,-1,15,13,15,houses;smalltown
+xcostum_House_AF04P(15x15)(by_Nodabba),RESIDENTIALNEW,0,-1,15,13,15,houses;smalltown
 xcostum_House_AF04R(15x15)(by_Nodabba),RESIDENTIALOLD,2,-1,15,13,15,houses;smalltown
 xcostum_House_AF05D(14x17)(by_Nodabba),RESIDENTIALOLD,3,0,14,10,17,houses;smalltown
 xcostum_House_AF05P(14x19)(by_Nodabba),RESIDENTIALNEW,1,0,14,10,19,houses;smalltown
@@ -648,9 +648,9 @@ xcostum_spanish_mission(by_The_Cure),NONE,0,-1,80,24,144,alone
 xcostum_Spirallibrary(by_Tom),NONE,3,-1,58,68,48,citycenter
 xcostum_Stonehouse01(by_Tom),ResidentialNew;ResidentialOld,1,0,40,15,56,houses;alone
 xcostum_Storage(by_ShoNuff),NONE,0,-1,55,11,76,industrial
-xcostum_Store_Automotive_sm(by_Laz_Man),COMMERCIAL,2,-4,44,15,43,downtown
 xcostum_storeset1(by_Guppycur),NONE,0,-1,36,15,31,industrial
 xcostum_storeset2(by_Guppycur),Commercial;Downtown;ResidentialOld,2,-2,18,16,32,smalltown;downtown 
+xcostum_Store_Automotive_sm(by_Laz_Man),COMMERCIAL,2,-4,44,15,43,downtown
 xcostum_strandresort(by_magoli),COMMERCIAL;DOWNTOWN,0,-17,62,31,66,alone
 xcostum_strange_cornfield(by_magoli),NONE,0,-1,48,4,48,farm
 xcostum_stripclub(by_magoli),ANY,2,-5,22,14,20,smalltown;downtown
