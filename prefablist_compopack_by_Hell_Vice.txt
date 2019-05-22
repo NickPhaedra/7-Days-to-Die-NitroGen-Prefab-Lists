@@ -301,7 +301,8 @@ oldwest_sm_shop_03,COMMERCIAL,2,0,6,9,12,oldwest
 oldwest_stables,INDUSTRIAL,2,-1,25,11,24,oldwest
 oldwest_watertower,INDUSTRIAL,2,0,9,12,10,oldwest
 park_01,NONE,0,-1,53,10,53,smalltown;downtown;citycenter
-park_02,NONE,0,-1,28,10,46,smalltown;downtown;citycenterparking_garage_01,COMMERCIAL;DOWNTOWN,2,0,43,18,44,citycenter;carlot
+park_02,NONE,0,-1,28,10,46,smalltown;downtown;citycenter
+parking_garage_01,COMMERCIAL;DOWNTOWN,2,0,43,18,44,citycenter;carlot
 parking_lot_01,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,downtown;smalltown;carlot
 parking_lot_02,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,downtown;smalltown;carlot
 parking_lot_03,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,downtown;smalltown;carlot
