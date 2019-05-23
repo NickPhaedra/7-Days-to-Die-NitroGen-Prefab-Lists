@@ -189,7 +189,7 @@ Detailed instructions / FAQ (go right to step 5 if you just want to know how to 
 	  
 	  (Don't ask my why the Ravenhearst Rave Factory would cause that error, since the Darkness Falls values include the same prefab with the same values, but the Darkness Falls variant works.)
 	  I commented these two prefabs out, and lo and behold, maps generated with this modified prefab list of mine worked from now on.
-  10. After testing out my new list, which contained the vanilla and both the Ravenhearst and the Darkness Falls values, I noticed that most Darkness Falls POIs spawned at a completely messed-up
+   10. After testing out my new list, which contained the vanilla and both the Ravenhearst and the Darkness Falls values, I noticed that most Darkness Falls POIs spawned at a completely messed-up
       height in the world due to the automated value extraction (most spawned in the ground or high above ground, but not *on* the ground), whereas only a few Ravenhearst POIs (and even some vanilla)
 	  had the same issue. Furthermore, I wasn't too happy with the set NitroGen zone for many of the POIs, so testing time occurred again.
 	  I created map after map with temporary prefab lists and corrected all height values for every included POI in the list manually, checked for more issues and set the NitroGen zone for every
@@ -197,4 +197,4 @@ Detailed instructions / FAQ (go right to step 5 if you just want to know how to 
 	  Also, I like my lists more readable, so I put more comments into them, commented out POIs that don't work, corrected some typos and sorted them into sections, putting commented-out values at
 	  the beginning of each section.
 	  
-   As a side note, the whole testing process took me approximately two weeks (spare-time speaking).
+      As a side note, the whole testing process took me approximately two weeks (spare-time speaking).
