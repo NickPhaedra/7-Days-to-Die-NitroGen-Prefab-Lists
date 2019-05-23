@@ -52,12 +52,23 @@ Detailed instructions / FAQ (go right to step 5 if you just want to know how to 
    
    - If you just want to create a NitroGen map and start playing on it as fast as possible, you can simply choose one of the following lists, which meets your aim:
    
-     prefablist_Darkness_Falls_vanilla_vxx.txt									-> This list is for a standard Darkness Falls map, with the vanilla and the Darkness Falls POIs.
-     prefablist_Ravenhearst_vanilla_vxx.txt										-> This list is for a standard Ravenhearst map, with the vanilla and the Ravenhearst POIs.
-     prefablist_Ravenhearst_with_DF_POIs_combined_vxx.txt						-> This list is for a map with combined POIs, with the vanilla, Darkness Falls and Ravenhearst POIs.*
-     prefablist_Ravenhearst_with_resource_piles (iron from DF included)_vxx.txt	-> This list is for a standard Ravenhearst map with additional vanilla resource piles (nitrate etc.) and also iron piles from Darkness Falls.
-     prefablist_vanilla_vxx.txt													-> This list is for a standard map, which contains the standard 7 Days to Die prefabs, with adjustments of my own (mainly different or slightly different NitroGen zone settings).
-     prefablist_vanilla_with_resource_piles (iron from DF included)_vxx.txt		-> This list is for a standard map with additional vanilla resource piles (nitrate etc.) and also iron piles from Darkness Falls.
+     prefablist_Darkness_Falls_vanilla_vxx.txt
+     -> This list is for a standard Darkness Falls map, with the vanilla and the Darkness Falls POIs.
+     
+     prefablist_Ravenhearst_vanilla_vxx.txt
+     -> This list is for a standard Ravenhearst map, with the vanilla and the Ravenhearst POIs.
+     
+     prefablist_Ravenhearst_with_DF_POIs_combined_vxx.txt
+     -> This list is for a map with combined POIs, with the vanilla, Darkness Falls and Ravenhearst POIs.*
+     
+     prefablist_Ravenhearst_with_resource_piles (iron from DF included)_vxx.txt
+     -> This list is for a standard Ravenhearst map with additional vanilla resource piles (nitrate etc.) and also iron piles from Darkness Falls.
+     
+     prefablist_vanilla_vxx.txt
+     -> This list is for a standard map, which contains the standard 7 Days to Die prefabs, with adjustments of my own (mainly different or slightly different NitroGen zone settings).
+     
+     prefablist_vanilla_with_resource_piles (iron from DF included)_vxx.txt
+     -> This list is for a standard map with additional vanilla resource piles (nitrate etc.) and also iron piles from Darkness Falls.
 
      *Many Ravenhearst prefabs are basically the same as the Darkness Falls ones, so one could also just play Ravenhearst with the Darkness Falls POIs instead. However, having the same prefabs
      twice can make for a more interesting game, as you increase the spawn chance for those POIs. Apart from being the same POIs, there are also differences often, like different POI dimensions
