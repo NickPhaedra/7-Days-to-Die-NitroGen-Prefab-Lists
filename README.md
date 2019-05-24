@@ -177,7 +177,7 @@ Detailed instructions / FAQ (go right to step 5 if you just want to know how to 
    7. After comparing my manual with the automated values, I found no errors in my Ravenhearst POI values; my main goal at the time was to get rid of the "Array Index Out of Range" error, so I
       could finally enjoy a NitroGen map in Ravenhearst, and I had to search for possible errors in all directions for this.
    8. I found no logical errors whatsoever in my own combined prefab lists, but found after trying out a vanilla NitroGen map with only the standard values by Damocles that I could actually load
-      such a vanilla map into NitroGen, so the problem had to be at least one certain POI in my lists after all.
+      such a vanilla map into Ravenhearst, so the problem had to be at least one certain POI in my lists after all.
    9. A long and arduous testing ensued, where I created a temporary prefab list only for checking single POIs, created maps with only those POIs and checked every created map for the "Array Index
       Out of Range" exception error and finally found that indeed two specific POIs in the whole list caused this error in Ravenhearst, namely
 	  
