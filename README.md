@@ -178,6 +178,7 @@ Detailed instructions / FAQ (go right to step 5 if you just want to know how to 
       could finally enjoy a NitroGen map in Ravenhearst, and I had to search for possible errors in all directions for this.
    8. I found no logical errors whatsoever in my own combined prefab lists, but found after trying out a vanilla NitroGen map with only the standard values by Damocles that I could actually load
       such a vanilla map into Ravenhearst, so the problem had to be at least one certain POI in my lists after all.
+      (I later found that the working vanilla map(s) didn't include the apartment_adobe_red_5_flr prefab from the vanilla values, which by chance did not spawn, so I knew that was one of the problematic POIs; also see below.)
    9. A long and arduous testing ensued, where I created a temporary prefab list only for checking single POIs, created maps with only those POIs and checked every created map for the "Array Index
       Out of Range" exception error and finally found that indeed two specific POIs in the whole list caused this error in Ravenhearst, namely
 	  
