@@ -1,22 +1,5 @@
-//*Apparently problematic for map generation; comment this value out in the original prefabs list values (else you might get an Array Index Out of Range exception error when starting Ravenhearst)*
-//apartment_adobe_red_5_flr,Downtown;ResidentialNew,2,0,45,36,37,citycenter;downtown
+//***Ravenhearst values***
 
-//*Removed Ravenhearst POI values, commented out*
-
-//rh5_7EndStore(by_Jackelmyer),Commercial;Downtown;Industrial;ResidentialNew,2,-1,0,0,0,downtown;smalltown
-//rh5_Amityville_Horror_House(by_Swolk),ResidentialNew;ResidentialOld,2,-1,0,0,0,houses
-//rh5_MonsterFlexGym(by_Swolk),Commercial;Downtown,2,-3,0,0,0,citycenter;downtown;industrial
-//rh5_SUBDAY(by_Swolk),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-2,0,0,0,downtown;smalltown
-//rh5_TacoBele(by_Swolk),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-6,0,0,0,downtown;smalltown
-//rh5_Walcart(by_Swolk),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-2,0,0,0,citycenter;downtown;smalltown
-
-
-//*Ravenhearst POI values, which seem to be problematic for NitroGen, commented out (otherwise there might be an Array Index Out of Range exception error when starting Ravenhearst)*
-
-//rh5_rave_factory(by_orak),Downtown;Industrial,2,-2,99,43,112,alone;industrial;smalltown
-
-
-//*Ravenhearst values working in NitroGen*
 
 abandoned_house_01new,ResidentialOld,2,-1,20,8,24,houses
 abandoned_house_02new,ResidentialOld,2,-1,22,8,24,houses
@@ -37,10 +20,10 @@ rh5_Apartments_Curtilage_Playground(by_magoli),Downtown;ResidentialNew;Residenti
 rh5_Apartment_Stores(by_Laz_Man),Commercial,3,-2,45,21,45,citycenter;downtown
 rh5_ArtGallery(by_Wsiegel),Commercial;Downtown;Industrial,2,-1,30,8,24,citycenter;downtown
 rh5_Asia_Restaurant_city(by_Redlotus),Commercial;Downtown,1,-1,45,25,45,citycenter
-rh5_Asylum(by_Wsiegel),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld;Residential,2,-5,50,24,49,downtown;smalltown
-rh5_BankOfJax(GotchaBank_a17_remake_by_WiZ),Commercial,3,-1,45,17,45,citycenter;downtown;smalltown
+rh5_Asylum(by_Wsiegel),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,-5,50,24,49,downtown;smalltown
 rh5_Bank(by_Guppycur),Commercial,2,-2,44,12,44,citycenter;downtown;smalltown
 rh5_Bank(by_Limodor),Commercial,3,-1,45,15,45,citycenter;downtown;smalltown
+rh5_BankOfJax(GotchaBank_a17_remake_by_WiZ),Commercial,3,-1,45,17,45,citycenter;downtown;smalltown
 rh5_Bavarian_Bowse_Shop(by_magoli),Commercial,2,-6,20,13,30,downtown;smalltown
 rh5_Bike_Shop(by_War3zuk),Commercial;ResidentialNew;ResidentialOld,2,-1,25,10,25,downtown;smalltown
 rh5_bowlingcenter(by_magoli),Commercial;Downtown,2,-4,32,17,38,downtown;industrial;smalltown
@@ -64,9 +47,9 @@ rh5_CrashedAirplane(by_LazMan),Commercial;Downtown;Industrial;ResidentialNew;Res
 rh5_crematory(by_magoli),ResidentialNew,2,-4,19,19,18,downtown;smalltown
 rh5_CurlingCenter(by_magoli),Commercial;Downtown,3,-5,45,15,45,industrial;smalltown
 rh5_Dark_Mausoleum32(by_LuckyStar),ResidentialNew;ResidentialOld,1,-1,30,7,29,industrial
-rh5_deaddog_saloon(by_Libby),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld;Residential,2,0,46,20,24,oldwest
+rh5_deaddog_saloon(by_Libby),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,0,46,20,24,oldwest
 rh5_donut_shop(by_bigstep70),Commercial;industrial;ResidentialNew;ResidentialOld,2,-1,17,8,19,downtown;smalltown
-rh5_DriveIn(by_Wsiegel),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld;Residential,2,-10,46,23,65,alone;smalltown
+rh5_DriveIn(by_Wsiegel),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,-10,46,23,65,alone;smalltown
 rh5_drivethru(by_bigstep70),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,1,-1,31,9,41,citycenter;downtown;smalltown
 rh5_exfarmstead(by_owl79),Commercial;Downtown;Industrial;ResidentialOld,2,-3,37,17,37,farm
 rh5_Experimentalhouse(by_Tom),Commercial;Downtown;ResidentialNew;ResidentialOld,2,-1,42,20,46,houses
@@ -115,14 +98,14 @@ rh5_Info_Center(by_LuckyStar),Industrial;ResidentialOld,3,-1,20,7,20,downtown
 rh5_ir8_center,Commercial;Downtown;ResidentialNew;ResidentialOld,2,-9,71,26,80,industrial;smalltown
 rh5_kwikemart(by_magoli),Commercial,2,-5,34,14,32,downtown;smalltown
 rh5_LittleLeagueBaseball(by_Curmudgeon),ResidentialOld,3,-5,45,15,45,downtown;industrial;smalltown
-rh5_LittleLeagueBaseballShelter(by_Curmudgeon),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld;Residential,3,-5,45,18,45,downtown;industrial;smalltown
+rh5_LittleLeagueBaseballShelter(by_Curmudgeon),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,3,-5,45,18,45,downtown;industrial;smalltown
 rh5_LumberMill(by_IceJudge),Commercial,2,-5,29,18,27,alone;farm;industrial;oldwest;smalltown
 rh5_metro(by_blackrook),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-13,315,31,68,industrial
 rh5_metro_small(by_blackrook),Commercial;Downtown;Industrial,2,-13,142,25,67,citycenter;downtown;smalltown
 rh5_MiniMall(by_Spider),Commercial;Downtown,2,-2,45,10,45,downtown;smalltown
 rh5_modernvilla(by_owl79)(a17_refurbished_by_WiZ),ResidentialNew;ResidentialOld,2,-5,32,13,39,houses
-rh5_moestaverne(by_magoli),Commercial;ResidentialOld,2,-1,25,9,22,downtown;smalltown
 rh5_moestaverne(by_magoli)(a17_refurbished_by_WiZ),Commercial;ResidentialOld,2,-1,25,9,22,downtown;smalltown
+rh5_moestaverne(by_magoli),Commercial;ResidentialOld,2,-1,25,9,22,downtown;smalltown
 rh5_Motel(by_Limodor),ResidentialOld,2,-10,70,15,32,alone;smalltown
 rh5_NotreDamn_(by_tehkarma),Industrial,1,-9,105,51,39,citycenter;unique
 rh5_Office(by_Wsiegel),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-1,72,23,90,citycenter;downtown;industrial
@@ -131,6 +114,7 @@ rh5_PetStore(by_Jackelmyer),Commercial;Downtown,2,-1,72,12,76,downtown
 rh5_Plant(by_Wsiegel),Industrial,2,-22,40,29,44,industrial
 rh5_powerplant(byKam),Industrial,2,-7,152,71,103,industrial
 rh5_Prison(by_Limodur),Commercial;ResidentialNew,3,-8,132,26,69,alone;industrial;smalltown
+rh5_rave_factory(by_orak),Downtown;Industrial,2,-2,99,43,112,alone;industrial;smalltown
 rh5_Recycling(by_Limodor),Industrial,2,-1,82,22,47,industrial
 rh5_RestArea_Desert(by_Guppycur),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-10,52,17,30,industrial
 rh5_Safehouse(by_Limodor),ResidentialNew;ResidentialOld,2,-5,52,21,52,houses
