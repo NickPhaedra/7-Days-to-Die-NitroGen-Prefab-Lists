@@ -199,11 +199,11 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
 
       - *For Ravenhearst, the needed files are the **abandoned_house_xxnew**, the **rh5_xx** and the **xvanilla_xx** (if present) files from the Ravenhearst prefabs folder:*
    
-      `Ravenhearst_5_4_A17_4_Edition\Data\Prefabs`
+        `Ravenhearst_5_4_A17_4_Edition\Data\Prefabs`
      
       - *For Darkness Falls, the needed files are the **DFalls_xx**, the **resource_xx**, the **xcostum_xx** and the **xvanilla_xx** files from the Darkness Falls prefabs folder:*
    
-      `Darkness_Falls\Data\Prefabs`
+        `Darkness_Falls\Data\Prefabs`
 
 
       For example, if you want to play a standard Ravenhearst map, you have to copy all **abandoned_house_xxnew**, the **rh5_xx** and the **xvanilla_xx** (if present) files from your Ravenhearst prefabs folder into the 7DTD Data\Prefabs folder for the map generation.
@@ -217,7 +217,7 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
    
    3. Choose the list that meets your aim for the map creation. For a standard Ravenhearst v5.4 game, for example, use the
 
-   `Prefab lists for Ravenhearst\Ravenhearst 5.4\prefablist__Ravenhearst_v5.4_plus_vanilla_POIs_for_Alpha17.4.txt` file.
+      `Prefab lists for Ravenhearst\Ravenhearst 5.4\prefablist__Ravenhearst_v5.4_plus_vanilla_POIs_for_Alpha17.4.txt` file.
    
    
    4. In the NitroGen resources folder (NitroGen_WorldGenerator\resources), rename the original prefablist.txt to something else (e.g. original_prefablist.txt).
@@ -278,7 +278,7 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
           
 	  `rh5_rave_factory(by_orak),downtown;industrial,2,1,99,43,112,citycenter;smalltown;downtown;alone` (from the Ravenhearst values).
 	  
-	  (Don't ask my why the Ravenhearst Rave Factory would cause that error, since the Darkness Falls values include the same prefab with the same values, but the Darkness Falls variant works.)
+	  (Don't ask me why the Ravenhearst Rave Factory would cause that error, since the Darkness Falls values include the same prefab with the same values, but the Darkness Falls variant works.)
 	  
 	  I commented these two prefabs out, and lo and behold, maps generated with this modified prefab list of mine worked from now on.
 	  
