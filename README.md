@@ -94,7 +94,7 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
    Very handy for installing MODs for 7 Days to Die is the [7 Days to Die MOD Launcher](https://7daystodie.com/forums/showthread.php?48537-The-7D2D-Mod-Launcher-A-Mod-Launcher-for-7-Days-to-Die/). Just saying.
    
    
-   **Scenario 1**:
+   **Scenario 1: Use an existing prefab list file**
    
    If you just want to create a NitroGen map and start playing on it as fast as possible, you can simply choose one of the following lists, which meets your aim:
    
@@ -141,7 +141,7 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
 
 
 
-   **Scenario 2**:
+   **Scenario 2: Create your own prefab list file**
    
    If you want to create your own list(s), you can, e.g., choose one or more as your template(s) and start editing them according to your needs.
 	 
