@@ -65,15 +65,83 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
 ### Detailed instructions / FAQ (go right to step 5 if you just want to know how to actually generate a map):
 
 
+**0. Side note first: Instructions for setting up a dedicated server with a NitroGen map.**
+
+   On the [NitroGen front page](https://7daystodie.com/forums/showthread.php?114207-Tool-NITROGEN-a-random-world-generator-for-7DtD/), there are instructions on how to set up a dedicated server using a NitroGen map. What I have tried and tested is also [RAT](https://7daystodie.com/forums/showthread.php?38806-7D2D-RAT-Remote-Admin-Tool/), which works nicely with NitroGen-generated maps.
+   
+   However, it seems those instructions are a bit overloaded, according to the 7 Days to Die developer Alloc [here](https://7daystodie.com/forums/showthread.php?114207-Tool-NITROGEN-a-random-world-generator-for-7DtD&p=977308&viewfull=1#post977308) and [here](https://7daystodie.com/forums/showthread.php?114207-Tool-NITROGEN-a-random-world-generator-for-7DtD&p=996715&viewfull=1#post996715), so I have decided to put all the information here given on the subject by Damocles, zootal and Alloc in a (for my taste) somewhat more refined form:
+
+   1. After creating your NitroGen map (see below, especially section 5), you need to transfer the map to your server.
+      It's convenient to use a packer, e.g. [7-Zip](https://www.7-zip.org/), for this. (You'd also need a packing program on your server to unpack the file again after the transfer, of course.) This way, you only need to transfer one big file, not many small ones.
+   
+      The default folder location for a NitroGen-generated map is:
+   
+      `NitroGen_WorldGenerator\output\NitroGenMap`
+   
+      Before packing the folder contents into one big file, you can delete the map preview files from the folder (copy them someplace else before, if you need them):
+   
+      `genHM.png`
+   
+      `poiHM.png`
+   
+      `previewMap.png`
+
+      These files are rather large and would add to the total map size to be transferred, as well as forcing all clients connecting to your 7 Days to Die server later to download them as well, therefore delaying the actual first gameplay for the clients.
+   
+      For the actual file transfer, you need an appropriate access / program for your server (Remote Desktop Connection, PuTTY, whatever). I won't go into too many details here, as there are many instructions to be found on the Internet and elsewhere on how to do this. (For example, quite convenient is Remote Desktop Connection with copy & paste, if you have a Windows operating system and sufficient rights on your (Windows) server.)
+   
+   
+   2. Next, unpack the transferred file in an appropriate location for 7 Days to Die to find it. For this, you have the following options; either:
+   
+      `- put it under the game's regular UserDataFolder (e.g. %APPDATA%/7DaysToDie/GeneratedWorlds/NitroGenMap on Windows).`
+   
+      `- put it in the save game's own folder (e.g. %APPDATA%/7DaysToDie/SaveGames/NitroGenMap/MySavegame/World, assuming you use Windows and the default SaveGameFolder).`
+   
+      `- put it in a MOD folder (**recommended**; e.g. <7 Days to Die root folder>/Mods/NitroGen_Maps/Worlds/NitroGenMap_001).`
+   
+      `- put it in the game's own Worlds folder (*not recommended*, as this is the most likely place to lose your worlds on updates or similar; e.g. <7 Days to Die root folder>/Data/Worlds/NitroGenMap).`
+   
+      Another option is to define / override the game's UserDataFolder location by setting it yourself in the game's serverconfig.xml file:
+   
+      `<property name="UserDataFolder" value="/<folder of your choice>" />`
+   
+      This, however, is not really necessary and mainly serves a preferred personal taste for this folder's location.
+      
+      (Similar to changing the game's SaveGameFolder location:
+      
+      `<property name="SaveGameFolder" value="/<folder of your choice>" />`,
+      
+      which can be done, but is *not needed* to make a NitroGen map work on a dedicated server.)
+
+
+   3. Within the **serverconfig.xml** file, located in your 7 Days to Die root folder, define the **GameWorld** config value, so that it maches the exact name of your generated NitroGen map.
+      
+      Regular GameWorld values would be *Navezgane* (for a standard Navezgane map) and *RWG* (for a randomly generated world). A NitroGen map is an additional / different map type with its own name, which is defined when you create a map in the NitroGen generator. The game doesn't know about that name, so you must insert it yourself to make it actually use the NitroGen map in-game.
+   
+      Example:
+   
+      Your NitroGen map folder is called ***My_NitroGenMap_001***.
+   
+      Insert / change this line in your serverconfig.xml file:
+   
+      `<property name="GameWorld" value="My_NitroGenMap_001"/>`
+   
+      Now you should be good to go. Run the 7 Days to Die server, and let your clients connect.
+  
+    
+   4. Additional information:
+   
+      The values *WorldGenSeed* and *WorldGenSize* within the serverconfig.xml are only relevant for the game's own random world generator, meaning if the *GameWorld* value is set to *RWG*. They do nothing for a NitroGen map.
+   
+
+
 **1. What the heck is this?**
 
    These are prefab lists for the NitroGen Random World Generator made by Damocles for the game 7 Days to Die.
    
    You can find NitroGen and respective prefab lists [here](https://7daystodie.com/forums/showthread.php?114207-Tool-NITROGEN-a-random-world-generator-for-7DtD/), along with the Prefab List Generator by Xylvier.
    
-   On the same page there are instructions how to set up a dedicated server using a NitroGen map. What I have tried and tested is also [RAT](https://7daystodie.com/forums/showthread.php?38806-7D2D-RAT-Remote-Admin-Tool/), which works nicely with NitroGen-generated maps.
-
-
+   
 
 **2. What is the purpose of these prefab lists?**
 
