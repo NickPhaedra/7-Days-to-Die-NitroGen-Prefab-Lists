@@ -99,7 +99,7 @@
 //rock_form05,None,2,-1,3,2,3,alone
 
 //*Sawmill only works on SNOW!*
-//sawmill_01_snow,Industrial,2,-1,75,28,100,alone
+//sawmill_01_snow,Industrial,2,-1,75,28,100,alone;industrial
 
 //sign_260_east_speed_65,NavOnly,2,0,1,2,1,alone
 //sign_260_west_speed_65,NavOnly,2,0,1,2,1,alone
@@ -644,6 +644,8 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_moestaverne(by_magoli),Commercial;ResidentialOld,2,-1,25,9,22,downtown;smalltown
 //rh5_MonsterFlexGym(by_Swolk),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-3,28,21,50,downtown
 //rh5_Motel(by_Limodor),ResidentialOld,2,-10,70,15,32,alone;smalltown
+//RH5_NORWGLazmans_Bunker_BurntForest_CptKrunch_Edition,ResidentialNew;ResidentialOld,2,-8,13,10,12,alone
+//RH5_NORWGLazmans_Bunker_Snow_CptKrunch_Edition,ResidentialNew;ResidentialOld,2,-8,13,10,12,alone
 //rh5_norwg_bulldozer3_v4_CptKrunchEdit,None,2,-1,15,6,9,citycenter;downtown;industrial;smalltown
 //rh5_norwg_bulldozer3_v5_CptKrunchEdit,None,2,-1,15,6,9,citycenter;downtown;industrial;smalltown
 //rh5_norwg_chainfence_CptKrunchEdit,None,2,-1,7,5,2,alone;industrial
@@ -659,6 +661,9 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_norwg_heli3_CptKrunchEdit,None,2,0,22,7,19,alone;industrial;mountain
 //rh5_norwg_helipad_CptKrunchEdit,None,2,-1,22,22,24,alone
 //rh5_norwg_highvolttower_Kam_CptKrunchEdit,None,2,0,18,34,8,alone;industrial
+//RH5_NORWG_Lazmans_Bunker_Desert_CptKrunch_Edition,ResidentialNew;ResidentialOld,2,-8,13,10,12,alone
+//RH5_NORWG_Lazmans_Bunker_Forest_CptKrunch_Edition,ResidentialNew;ResidentialOld,2,-8,13,10,12,alone
+//RH5_NORWG_Lazmans_Bunker_Waste_CptKrunch_Edition,ResidentialNew;ResidentialOld,2,-8,13,10,12,alone
 //rh5_norwg_lighttower2_CptKrunchEdit,None,2,-1,5,16,9,alone;industrial
 //rh5_norwg_lighttower_CptKruchEdit,None,2,-1,5,24,10,alone;industrial
 //rh5_norwg_runway120m_CptKrunchEdit,None,2,-2,29,3,18,alone;industrial
@@ -795,16 +800,18 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //***Darkness Falls values***
 
 
+//*Darkness Falls POI values that don't really work in NitroGen (yet?)*
+//rwg_bridge_end_01,NONE,0,0,1,1,1,none 
+//rwg_bridge_tile_01,NONE,0,0,1,1,1,none
+
 //*Darkness Falls POI values, which are specific to Darkness Falls, meaning "placeholders" will be generated for them in NitroGen, but the POIs will only really appear in Darkness Falls*
 //DFalls_DemonPortal,BiomeOnly,2,-1,15,11,3,alone;mountain
 //DFalls_Military_Bunker,Any,2,-12,29,17,34,farm;smalltown;unique
 //DFalls_Resarch_Lab1,Any,2,-34,45,41,40,alone;mountain;unique
 //DFalls_settlement_trader,Any,2,-1,38,22,38,trader
 
-//*Generic resource piles; these also work in other MODs or vanilla maps*
-//resource_iron_pile,None,2,0,3,1,3,alone;farm;mountain;oldwest
-
 //*Resource piles specific to Darkness Falls; might work in other MODs that use the same resources; don't forget to activate them for Darkness Falls*
+//resource_iron_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
 //resource_plutonium_pile,None,2,0,5,2,5,alone;farm;mountain;oldwest
 //resource_titanium_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
 //resource_uranium_pile,None,2,0,4,2,5,alone;farm;mountain;oldwest

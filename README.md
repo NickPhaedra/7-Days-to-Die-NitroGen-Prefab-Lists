@@ -280,7 +280,7 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
       If you want to combine POIs from different MODs (e.g. play Ravenhearst together with Darkness Falls POIs), you additionally have to copy the respective MOD's POI files into the corresponding MOD's Prefabs folder, else the MOD
       cannot load the needed prefabs when loading the map.
    
-      For example, if you want to play Ravenhearst together with the Darkness Falls POIs, you not only have to copy all **abandoned_house_xxnew**, the **rh5_xx** and the **xvanilla_xx** (if present) files from your Ravenhearst prefabs folder and all **DFalls_xx** (if needed), the **resource_xx** (or only the **resource_iron_xx**, if needed), the **xcostum_xx** and the **xvanilla_xx** files from the Darkness Falls prefabs folder into the 7DTD Data\Prefabs folder, but ***additionally*** all **DFalls_xx** (if needed), the **resource_xx** (or only the **resource_iron_xx**, if needed), the **xcostum_xx** and the **xvanilla_xx** files from the Darkness Falls prefabs folder into the Ravenhearst Data\Prefabs folder.(**!**)
+      For example, if you want to play Ravenhearst together with the Darkness Falls POIs, you not only have to copy all **abandoned_house_xxnew**, the **rh5_xx** and the **xvanilla_xx** (if present) files from your Ravenhearst prefabs folder and all **DFalls_xx** (if needed), the **resource_xx** (if needed), the **xcostum_xx** and the **xvanilla_xx** files from the Darkness Falls prefabs folder into the 7DTD Data\Prefabs folder, but ***additionally*** all **DFalls_xx** (if needed), the **resource_xx** (if needed), the **xcostum_xx** and the **xvanilla_xx** files from the Darkness Falls prefabs folder into the Ravenhearst Data\Prefabs folder.(**!**)
    
    
    3. Choose the list that meets your aim for the map creation. For a standard Ravenhearst v5.4 game, for example, use the
@@ -304,6 +304,8 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
    
    Whenever there are "technical" issues with any POIs, this will be mentioned directly within the lists in comments.
    
+   On a side note, Darkness Falls iron resource POIs don't seem to spawn in Ravenhearst, so I modified the lists accordingly.
+      
    ~~There is a nuclear power plant POI (xcostum_Nuclear_Powerplant(by_Rocky)) that looks a bit strange when placed into the world, like it is spawned too high. In my view, the prefab itself is made a bit unfortunate,
    as it doesn't clearly show whether the whole thing should spawn *on* the ground or a bit *below* ground, like sunken below. In my view, both options are possible, but to make the POI accessible easily,
    I'll probably change its height values in a future version (v4 and above) of the lists (current height is -6, future height would be -10), so it will appear a bit sunken below ground, which is probably what's intended by the author anyway.~~
