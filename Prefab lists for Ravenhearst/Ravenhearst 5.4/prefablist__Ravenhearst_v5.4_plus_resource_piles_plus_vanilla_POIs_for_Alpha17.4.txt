@@ -166,10 +166,10 @@
 //***Standard working POIs***
 
 //*Generic resource piles; these work in vanilla maps and also in MODs, e.g. Darkness Falls*
-//resource_coal_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
-//resource_lead_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
-//resource_nitrate_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
-//resource_oilshale_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_coal_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_lead_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_nitrate_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_oilshale_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
 
 abandoned_house_01,ResidentialOld,2,-1,24,21,26,houses
 abandoned_house_02,ResidentialOld,2,-1,24,17,25,houses
