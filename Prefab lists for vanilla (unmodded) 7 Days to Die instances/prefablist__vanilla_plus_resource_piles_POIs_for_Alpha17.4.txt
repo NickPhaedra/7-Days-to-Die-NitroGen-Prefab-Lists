@@ -166,10 +166,10 @@
 //***Standard working POIs***
 
 //*Generic resource piles; these work in vanilla maps and also in MODs, e.g. Darkness Falls*
-//resource_coal_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
-//resource_lead_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
-//resource_nitrate_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
-//resource_oilshale_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_coal_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_lead_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_nitrate_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
+resource_oilshale_pile,BiomeOnly,2,0,4,2,5,alone;farm;mountain;oldwest
 
 abandoned_house_01,ResidentialOld,2,-1,24,21,26,houses
 abandoned_house_02,ResidentialOld,2,-1,24,17,25,houses
@@ -503,8 +503,8 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 
 
 //abandoned_house_01new,ResidentialOld,2,-1,20,8,24,houses
-//abandoned_house_02new,ResidentialOld,2,-1,22,8,24,houses
-//abandoned_house_03new,ResidentialOld,2,-1,18,10,22,houses
+//abandoned_house_02new,ResidentialOld,2,-1,22,10,24,houses
+//abandoned_house_03new,ResidentialOld,2,-1,18,8,22,houses
 //abandoned_house_04new,ResidentialOld,2,-1,27,8,29,houses
 //abandoned_house_05new,ResidentialOld,2,-1,21,6,30,houses
 //abandoned_house_06new,ResidentialOld,2,-1,26,9,31,houses
@@ -533,8 +533,8 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_Bike_Shop(by_War3zuk),Commercial;ResidentialNew;ResidentialOld,2,-1,25,10,25,downtown;smalltown
 //rh5_Blue_House(by_TopMinder_and_Pille),ResidentialNew;ResidentialOld;Residential,1,-2,42,22,53,houses
 //rh5_bowlingcenter(by_magoli),Commercial;Downtown,2,-4,32,17,38,downtown;industrial;smalltown
-//rh5_BoxingGym(by_KamR),Commercial;Downtown;Industrial,1,-1,51,13,49,citycenter;downtown;industrial
-//rh5_Brownstones_House(by_Laz_Man),Commercial;Downtown;Industrial,2,-4,44,21,45,houses
+//rh5_BoxingGym(by_KamR),Commercial;Downtown;Industrial,1,-1,51,14,49,citycenter;downtown;industrial
+//rh5_Brownstones_House(by_Laz_Man),Commercial;Downtown;Industrial,2,-4,44,22,45,houses
 //rh5_burialshrine(by_snake0567),ResidentialNew;ResidentialOld,2,-25,21,26,15,alone;mountain
 //rh5_burnt_trap_house(by_Knightrath),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,1,-1,24,13,21,houses
 //rh5_Cabin(by_Sudo),ResidentialNew;ResidentialOld,1,-10,46,26,55,alone;mountain
@@ -544,11 +544,12 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_Car_Dealership_old(by_P1ut0nium),Commercial;ResidentialOld,3,-5,32,16,28,downtown;smalltown
 //rh5_CasinoANKH(by_magoli),Commercial;Downtown,2,-10,45,27,45,citycenter;downtown;smalltown
 //rh5_Cell_Tower(by_LuckyStar),Commercial;Downtown;Industrial,1,-1,25,31,25,alone;industrial
+//rh5_cemetery_02(by_sinder),ResidentialOld;Downtown,2,-12,40,32,46,smalltown
 //rh5_Chernobyl(by_Maz_Burt),Industrial,2,-12,103,67,104,industrial;unique
 //rh5_Church(by_Guppycur),ResidentialNew,3,-5,37,23,23,smalltown
 //rh5_circus(by_magoli),Commercial;Downtown,0,-5,45,19,45,alone;downtown;smalltown
 //rh5_cityhouse3(by_Kam),Commercial;Downtown;Residential;ResidentialNew;ResidentialOld,2,-4,54,25,28,houses
-//rh5_CityPark(by_Spider),Industrial;ResidentialNew;ResidentialOld,2,-3,45,10,45,citycenter;downtown
+//rh5_CityPark(by_Spider),Commercial;Industrial;ResidentialNew;ResidentialOld,2,-3,45,10,45,citycenter;downtown
 //rh5_Cliff_House(by_War3zuk),Commercial;Downtown;ResidentialOld,2,-1,19,14,19,mountain
 //rh5_collapsed_bldg_01(by_BuLLeTZ),ResidentialNew;ResidentialOld,3,-2,45,13,45,citycenter;downtown;smalltown
 //rh5_CountyJail(by_Volar),Commercial;industrial,2,-1,39,13,43,alone;industrial;smalltown
@@ -591,7 +592,7 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_Glass_factory_big(by_Khyber),Commercial;Industrial;Residential;ResidentialNew;ResidentialOld,2,-8,50,23,57,industrial
 //rh5_GotchaBank(by_Limodor)(a17_refurbished_by_WiZ),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,3,-1,45,15,45,citycenter;downtown;smalltown
 //rh5_guard_tower(by_Knightrath),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-3,24,30,26,alone;mountain
-//rh5_guard_tower_notconstructed(by_Knightrath),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,1,-2,59,30,25,alone;mountain
+//rh5_guard_tower_notconstructed(by_Knightrath),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,1,-2,22,30,22,alone;mountain
 //rh5_H0bbit(by_Limodor),ResidentialOld;NoZone,2,-6,55,18,45,alone;mountain;smalltown
 //rh5_Haulier_lg(by_Limodor),Commercial;Industrial;Residential,2,-1,45,22,45,downtown;industrial
 //rh5_Haulier_md(by_Limodor),Commercial;ResidentialOld,2,-5,25,16,24,downtown;industrial
@@ -629,7 +630,7 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_JarlsEstate(by_Eihwaz),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,3,-4,32,24,35,houses
 //rh5_kwikemart(by_magoli),Commercial;Downtown;Industrial,2,-5,34,14,32,downtown;smalltown
 //rh5_LakesideLodge(by_Kam),Commercial;Downtown;Industrial;ResidentialOld,2,0,41,21,41,alone;smalltown
-//rh5_Library(by_Genosis),Commercial;Residential;ResidentialNew;ResidentialOld,3,-9,38,26,19,downtown
+//rh5_Library(by_Genosis),Commercial;Residential;ResidentialNew;ResidentialOld,3,-9,38,25,19,downtown
 //rh5_LittleLeagueBaseball(by_Curmudgeon),ResidentialOld,3,-5,45,15,45,downtown;industrial;smalltown
 //rh5_LittleLeagueBaseballShelter(by_Curmudgeon),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,3,-5,45,18,45,downtown;industrial;smalltown
 //rh5_LumberMill(by_IceJudge),Commercial;Downtown;Industrial,2,-5,29,18,27,alone;farm;industrial;oldwest;smalltown
@@ -714,12 +715,17 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_Recycling(by_Limodor),Commercial;Downtown;Industrial,2,-1,82,22,47,industrial
 //rh5_Redhouse(by_Tom),ResidentialNew;ResidentialOld,1,-1,46,23,48,houses
 //rh5_red_mesa_alpha_labs(by_Pille),Industrial;Residential,2,-33,49,43,47,alone;industrial
+//rh5_Resident_Evil_Mansion_(by_Frantic_Dan),BiomeOnly,2,-39,126,86,90,alone;smalltown
 //rh5_RestArea_Desert(by_Guppycur),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-10,52,17,30,industrial
 //rh5_Restaurant(by_Gertle),Commercial;Downtown;Residential;ResidentialNew;ResidentialOld,2,-5,20,14,20,downtown;smalltown
 //rh5_RocketLaunchPad(by_Saeid),Commercial;Industrial;Residential,1,-10,40,52,55,industrial;smalltown
 //rh5_rollerskatedisco(by_magoli),ResidentialOld;Wilderness,2,-5,45,16,45,downtown;industrial;smalltown
 //rh5_RuinedOfficeBuilding(by_WiZ),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,2,-1,44,47,37,citycenter;downtown;industrial
 //rh5_Safehouse(by_Limodor),ResidentialNew;ResidentialOld,2,-5,52,21,52,houses
+//rh5_saltcave(by_sinder),NoZone,2,-22,35,25,39,alone
+//rh5_saltflat_sm1(by_sinder),BiomeOnly,0,-6,7,7,7,alone;farm;hillbillyjunk;oldwest
+//rh5_saltflat_sm2(by_sinder),BiomeOnly,0,-6,7,7,7,alone;farm;hillbillyjunk;oldwest
+//rh5_saltflat_sm3(by_sinder),BiomeOnly,0,-6,15,8,13,alone;farm;hillbillyjunk;oldwest
 //rh5_Science_lab(by_kinklade),Commercial;Industrial,2,-14,37,22,24,citycenter;downtown;industrial
 //rh5_seafoodshop(by_Guppycur),Commercial;ResidentialNew;ResidentialOld,2,-2,24,12,29,downtown
 //rh5_Sinders_House_vanilla17_v1(by_sinder),ResidentialNew;ResidentialOld,2,-1,30,20,29,alone;houses;mountain
@@ -727,7 +733,7 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_SkyDiner(by_Tom),Commercial;Downtown;Industrial;Residential,2,-2,65,170,65,citycenter;downtown
 //rh5_spanishmission(thecure_redo_by_sinder),Downtown;ResidentialNew;ResidentialOld,2,-2,99,25,160,alone
 //rh5_spanish_mission(by_The_Cure),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,-1,80,24,144,alone
-//rh5_Storage(by_ShoNuff),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,-1,55,11,76,downtown;industrial;smalltown
+//rh5_Storage(by_ShoNuff),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,-1,55,12,76,downtown;industrial;smalltown
 //rh5_storeset1(by_Guppycur),Commercial;Downtown;Industrial,2,-1,36,15,31,downtown;smalltown
 //rh5_storeset2(by_Guppycur),Commercial;Downtown;ResidentialOld,2,-2,18,16,32,downtown;smalltown
 //rh5_Store_Automotive_sm(by_Laz_Man),Commercial;Downtown;Industrial,2,-4,44,15,43,downtown;smalltown
@@ -771,9 +777,11 @@ water_tower_03,Industrial;ResidentialNew;ResidentialOld,2,-1,21,20,24,farm;small
 //rh5_wastelandtrain(by_Horst),Commercial;Downtown;Industrial,1,-2,45,19,17,industrial
 //rh5_wastelandtrain(by_incrediblejimmy),Commercial;Downtown;Industrial;Residential;ResidentialNew;ResidentialOld,2,0,101,18,10,industrial
 //rh5_Watertank(by_Tom),Downtown;Industrial;ResidentialNew,2,0,16,24,17,farm;hillbillyjunk;industrial
+//rh5_water_tower_02(by_sinder),Industrial,2,0,10,15,13,farm;hillbillyjunk;smalltown
+//rh5_water_tower_03(by_sinder),ResidentialOld;ResidentialNew;Industrial,2,-1,21,20,24,farm;industrial
 //rh5_WildHouse(by_Robear),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,1,-5,46,23,37,alone;farm;mountain
 //rh5_Windowfactory(by_magoli),Commercial;Downtown;Industrial,2,-5,46,21,45,industrial
-//rh5_Wooden_Store(by_Guppycur),Commercial;Downtown;Industrial,1,-5,26,12,21,downtown;smalltown
+//rh5_Wooden_Store(by_Guppycur),Commercial;Downtown;Industrial,1,-5,21,12,26,downtown;smalltown
 //rh5_Woodhouse(by_Tom),Commercial;Downtown;Industrial;ResidentialNew;ResidentialOld,1,0,59,21,44,houses
 //rh5_WulftownA(by_WereWulfen),ResidentialNew,2,-5,44,23,44,alone;industrial
 //rh5_WulftownCD(by_WereWulfen),ResidentialNew;ResidentialOld,2,-5,99,29,53,alone;industrial
