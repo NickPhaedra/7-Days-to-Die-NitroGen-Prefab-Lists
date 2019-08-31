@@ -1,6 +1,9 @@
 # 7-Days-to-Die-NitroGen-Prefab-Lists
 ## Prefab lists for the [NitroGen Random World Generator by Damocles](https://7daystodie.com/forums/showthread.php?114207-Tool-NITROGEN-a-random-world-generator-for-7DtD/) for the game [7 Days to Die](http://www.7daystodie.com/)
 
+## This ReadMe deals mainly with the Ravenhearst and Darkness Falls prefab lists instructions. I have also created other prefab lists, such as for the War of the Walkers MOD and my own prefab list version of Magoli's Compo-Pack 38. The Compo-Pack values are basically the same as my Darkness Falls list values, but since not everybody seems to know / understand that one can simply copy most of the Darkness Falls list values for other MODs using Magoli's Compo-Pack prefabs, I have created an extra list for those instances as well.
+
+## For instructions on using the other prefab lists posted here, please read the text below and use logical reasoning and your imagination. I just don't have the time to rework the whole ReadMe everytime. Thank you for your understanding, and take care.
 
 ### TL;DR version of the main text below:
 
