@@ -316,6 +316,8 @@ Commented-out lines are not read by NitroGen, meaning the POI behind the `//` is
    Apart from that, I think the culvert_01 prefab (sewerage pipe below a street) in general looks strange when spawned.
    Furthermore, in the Ravenhearst 5.4 version, quite a few new POIs have been added, especially POIs which resemble airport parts or military trenches. Those POIs start with **rh5_norwg** in their filenames. NitroGen probably won't generate those "partial" POIs in a meaningful way, at least not at this time, so it might be better to comment those specific POIs out, according to your taste(s).
    
+   The lists containing Ravenhearst 5.5.3 values and above (future updates) are completely updated in such a way that all aforementioned POIs that would require more complex placement logic or simply don't make much sense for use in NitroGen at this time have been commented out.
+   
    Note there might still be a few other prefabs that might not really match the biome they spawn in. Not much that can be done about that at this time, apart from adjusting a list for very specific purposes (e.g. create a desert-only map) or commenting those POIs out in general.
    
    
