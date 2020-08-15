@@ -1,6 +1,17 @@
 # 7-Days-to-Die-NitroGen-Prefab-Lists
 ## Prefab lists for the [NitroGen Random World Generator by Damocles](https://7daystodie.com/forums/showthread.php?114207-Tool-NITROGEN-a-random-world-generator-for-7DtD/) for the game [7 Days to Die](http://www.7daystodie.com/)
 
+## First things first: Declaration concerning this repository's future.
+## As of now (the time of Alpha 19 Experimental release), MOD authors and other creators have made their own NitroGen prefab lists. In this regard, players / testers are provided for, as my own lists reach as far as Alpha 18 as of now only.
+## I planned to do further lists for A19, but, as I have to admit, now that I have tested 7DTD A19 experimental and seen the vanilla built-in Random World Generator and its current quality, I'm just not happy with using NitroGen anymore at this time. The city / locale integration of the A19 RWG just outright declassifies NitroGen in my book, and The Fun Pimps (7DTD developers) seem to have more in store for the vanilla generator, so that you will be able to choose landscape types etc. in the end. In addition to this, the devs have stated that the 7DTD full release is likely going to happen in 2021.
+## I don't know / can't say whether or not NitroGen will still have its place when the full game is released, but as of now, I'm just willing to wait, and I believe it's just not worth the effort putting more time in NitroGen prefab lists at this time (or anymore at all, for that matter, if the vanilla RWG continues going THAT strong and NitroGen just stays more or less the same, without POI biome classification or that fine quality city / locale integration).
+## In my view, NitroGen creates wonderful wilderness landscapes, but too artificial city / locale integration, with too few possibilites to really adjust the POI placement in a meaningful way (also missing bridge placement logic, etc.). I've felt this way for some time already.
+## As of now, and probably also in the future, I'd prefer the vanilla RWG myself, and I'd rather create meaningful RWG Mixer files for it after the game's full release.
+## The material on this site will be kept, if I can help it, so no worries about that.
+## Hopefully I'll see you after the full release!
+## Take care, and stay healthy
+
+
 ## This ReadMe deals mainly with the Ravenhearst and Darkness Falls prefab lists instructions. I have also created other prefab lists, such as for the War of the Walkers MOD and my own prefab list version of Magoli's Compo-Pack 38. The Compo-Pack values are basically the same as my Darkness Falls list values, but since not everybody seems to know / understand that one can simply copy most of the Darkness Falls list values for other MODs using Magoli's Compo-Pack prefabs, I have created an extra list for those instances as well.
 
 ## For instructions on using the other prefab lists posted here, please read the text below and use logical reasoning and your imagination. I just don't have the time to rework the whole ReadMe everytime. Thank you for your understanding, and take care.
