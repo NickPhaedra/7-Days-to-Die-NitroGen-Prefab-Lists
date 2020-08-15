@@ -7,11 +7,10 @@
 ## I don't know / can't say whether or not NitroGen will still have its place when the full game is released, but as of now, I'm just willing to wait, and I believe it's just not worth the effort putting more time in NitroGen prefab lists at this time (or anymore at all, for that matter, if the vanilla RWG continues going THAT strong and NitroGen just stays more or less the same, without POI biome classification or that fine quality city / locale integration).
 ## In my view, NitroGen creates wonderful wilderness landscapes, but too artificial city / locale integration, with too few possibilites to really adjust the POI placement in a meaningful way (also missing bridge placement logic, etc.). I've felt this way for some time already.
 ## As of now, and probably also in the future, I'd prefer the vanilla RWG myself, and I'd rather create meaningful RWG Mixer files for it after the game's full release.
-## The material on this site will be kept, if I can help it, so no worries about that.
-## Hopefully I'll see you after the full release!
+## The material on this site will be kept, if I can help it, so no worries about that. Hopefully I'll see you after the full release!
 ## Take care, and stay healthy
 
-
+##
 ## This ReadMe deals mainly with the Ravenhearst and Darkness Falls prefab lists instructions. I have also created other prefab lists, such as for the War of the Walkers MOD and my own prefab list version of Magoli's Compo-Pack 38. The Compo-Pack values are basically the same as my Darkness Falls list values, but since not everybody seems to know / understand that one can simply copy most of the Darkness Falls list values for other MODs using Magoli's Compo-Pack prefabs, I have created an extra list for those instances as well.
 
 ## For instructions on using the other prefab lists posted here, please read the text below and use logical reasoning and your imagination. I just don't have the time to rework the whole ReadMe everytime. Thank you for your understanding, and take care.
